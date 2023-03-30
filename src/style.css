@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.structureNav{
+    margin: 1rem;
+    border-radius: 2.5rem;
+    padding: 1.3rem 1.5rem;
+    background-color: #222831;
+    color: white;
+
+}
+.navName{
+    padding-left: 3.5rem;
+    font-family: 'Mynerve', cursive;
+    font-size: larger;
+}
+.NavItemStruct{
+    float: left;
+    list-style: none;
+    margin: 0 2rem 0;
+    width: 4.5rem;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.NavItemLink{
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    padding: 0.35rem;
+}
+.NavItemLink:hover{
+    background-color: white;
+    border-radius: 1rem;
+    color: black;
+}
+.structureNavPage{
+    display: inline-block;
+    float: right;
+}
+.subList{
+    z-index: 1;
+    list-style: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 90px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: medium;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow-y: auto;
+
+
+}
+.subListItem{
+    padding: 0.3rem;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    text-align: start;
+    
+}
+.subListItem:hover{
+    background-color: #EEEEEE;
+}
+
+.HomeParent{
+    height: 89vh;
+    position: relative;
+    
+}
+.HomeSubParent{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 80rem;
+    background-color: black;
+    border-radius: 1rem;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.imageCard{
+    height: 40rem;
+    width: 25rem;
+    background-color: #222831;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.displayImage{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+.DisplayNameContainer{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 2rem;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    word-spacing: 3px;
+    font-size: large;
+}
+
+.imageSliderCard{
+    height: 40rem;
+    width: 55rem;
+    overflow: hidden;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contactStructureParent{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+}
+.contactFormStructureParent{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;    
+    background-color: #222831;
+    color: white;
+    height: 46.5rem;
+    width: 60%;
+    border-radius: 1rem;
+    position: absolute;
+    right: 3rem;
+}
+.contactStructure{
+    height: 46.5rem;
+    width: 30%;
+    border-radius: 1rem;
+    position: absolute;
+}
+.ContactItemStructure{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.ContactItemIconStructure{
+    display: inline-block;
+    height: 7rem;
+    padding-right: 1rem;
+
+}
+.ContactItemDataFeildStructure{
+    height: 6.2rem;
+    display: inline-block;
+    padding: 0.4rem;
+
+}
+
+.contactStructureDataItems{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    
+}
+.headerText{
+    font-weight: 600;
+    font-size: large;
+    font-family: 'Asap', sans-serif;
+}
+.messageText{
+    margin-top: 0.3rem;
+    margin-bottom: 0.8rem;
+    color: #413F42;
+    font-size: small;
+    font-family: 'Asap', sans-serif;
+    
+}
+.footerText{
+    font-size: small;
+    font-family: 'Asap', sans-serif;
+    font-weight: 600;
+}
+.iconBorder{
+    border: 0.5px solid #D8D8D8;
+    padding: 3px;
+    border-radius: 4px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.socialMediaLinkStructure{
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    gap: 0.7rem;
+    margin-left: 1rem;
+}
+.ContactSocialLink{
+    text-decoration: none;
+    color: black;
+}
+.formHeading{
+    margin-top: 4rem;
+    margin-left: 3.5rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 3.5rem;
+}
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 3.5rem;
+}
+input[type=text],textarea{
+    border: none;
+    background-color: #222831;
+    border-bottom: 1.5px solid white;
+    margin-bottom: 2rem;
+    padding: 0.3rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: medium;
+    letter-spacing: 1px;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    outline: none;
+}
+input[type=submit]{
+    margin: 2rem 3rem 1rem;
+    padding: 0.8rem;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 2rem;
+    font-family: 'Asap', sans-serif;
+    font-size: large;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+input[type=submit]:hover{
+    background-color: #222831;
+    border: 2px solid white;
+    color: white;
+}
+label{
+    font-family: 'Asap', sans-serif;
+}
