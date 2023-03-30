@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/nirbanhomeo/static/css/main.9e312fef.chunk.css",
+    "main.js": "/nirbanhomeo/static/js/main.97bd4f90.chunk.js",
+    "main.js.map": "/nirbanhomeo/static/js/main.97bd4f90.chunk.js.map",
+    "runtime-main.js": "/nirbanhomeo/static/js/runtime-main.e2499b4a.js",
+    "runtime-main.js.map": "/nirbanhomeo/static/js/runtime-main.e2499b4a.js.map",
+    "static/js/2.a8dea5a3.chunk.js": "/nirbanhomeo/static/js/2.a8dea5a3.chunk.js",
+    "static/js/2.a8dea5a3.chunk.js.map": "/nirbanhomeo/static/js/2.a8dea5a3.chunk.js.map",
+    "index.html": "/nirbanhomeo/index.html",
+    "static/css/main.9e312fef.chunk.css.map": "/nirbanhomeo/static/css/main.9e312fef.chunk.css.map",
+    "static/js/2.a8dea5a3.chunk.js.LICENSE.txt": "/nirbanhomeo/static/js/2.a8dea5a3.chunk.js.LICENSE.txt",
+    "static/media/Herbal medicine with leaf logo.e08b28fc.png": "/nirbanhomeo/static/media/Herbal medicine with leaf logo.e08b28fc.png",
+    "static/media/IMG_20230330_171656.6e0e94d6.jpg": "/nirbanhomeo/static/media/IMG_20230330_171656.6e0e94d6.jpg",
+    "static/media/Screenshot_2023-03-30-17-14-53-735_com.google.android.apps.maps.8a2b20b4.jpg": "/nirbanhomeo/static/media/Screenshot_2023-03-30-17-14-53-735_com.google.android.apps.maps.8a2b20b4.jpg",
+    "static/media/Screenshot_2023-03-30-17-14-56-688_com.google.android.apps.maps.a54a39f3.jpg": "/nirbanhomeo/static/media/Screenshot_2023-03-30-17-14-56-688_com.google.android.apps.maps.a54a39f3.jpg",
+    "static/media/Screenshot_2023-03-30-17-15-01-193_com.google.android.apps.maps.6ffe1bfe.jpg": "/nirbanhomeo/static/media/Screenshot_2023-03-30-17-15-01-193_com.google.android.apps.maps.6ffe1bfe.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2499b4a.js",
+    "static/js/2.a8dea5a3.chunk.js",
+    "static/css/main.9e312fef.chunk.css",
+    "static/js/main.97bd4f90.chunk.js"
+  ]
+}
